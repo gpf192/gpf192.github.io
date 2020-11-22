@@ -163,7 +163,7 @@ section.recent-posts {
 }
 
 .featured-box-video-cover {
-    object-fit: fill;
+    object-fit: contain;
     width: 320px;
     height: 100%;
     max-height: 100%;
