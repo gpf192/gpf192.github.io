@@ -6,6 +6,7 @@ comments: false
 ---
 
 <div class="row justify-content-between">
+<div class="col-md-8 pr-5">
 
 <p>Dear Potential buyer, we are a slautherhouse in Romania, with almost 500 employees , with our owen chicken farms productions, who has the capacity to produce more then 7000 MT of chicken paws/year, between Grade A, Grade B and unprocessed chicken paws, and we are open to collaborate with a serious chinese company in the field of frozen meat, for a long time contract, to supply chinese market with our products, that we made fresh, clean and safety for large consume.</p>
 
@@ -15,4 +16,5 @@ comments: false
 
 <p>We advice you to know each other,to aproche each other and contact us for any detail, question, doubt, proposal, and we are open to offer the best solution of it, for a strong partnership togheter, growing both bussines.</p>
 
+</div>
 </div>
