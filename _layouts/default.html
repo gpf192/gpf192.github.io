@@ -43,23 +43,23 @@ ga('send', 'pageview');
 
 <!-- Begin Menu Navigation
 ================================================== -->
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
     <div class="container pr-0">
 
-    &lt;!&ndash; Begin Logo &ndash;&gt;
-&lt;!&ndash;    <a class="navbar-brand" href="{{ site.baseurl }}/">
+    <!-- Begin Logo -->
+<!--    <a class="navbar-brand" href="{{ site.baseurl }}/">
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>&ndash;&gt;
-    &lt;!&ndash; End Logo &ndash;&gt;
+    </a>-->
+    <!-- End Logo -->
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
 
-&lt;!&ndash;    <div class="collapse navbar-collapse" id="navbarMediumish">
+    <div class="collapse navbar-collapse" id="navbarMediumish">
 
-        &lt;!&ndash; Begin Menu &ndash;&gt;
+        <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
 
@@ -68,14 +68,22 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/about">ABOUT US</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                </li>
+
+<!--                <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
                 </li>
 
@@ -89,18 +97,18 @@ ga('send', 'pageview');
 
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
-                </li>
+                </li>-->
 
-                {% include search-lunr.html %}
+                <!--{% include search-lunr.html %}-->
 
             </ul>
 
-        &lt;!&ndash; End Menu &ndash;&gt;
-
-    </div>&ndash;&gt;
+        <!-- End Menu -->
 
     </div>
-</nav>-->
+
+    </div>
+</nav>
 <!-- End Navigation
 ================================================== -->
 
@@ -114,7 +122,7 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="mainheading">
     <!--<h1 class="sitetitle">{{ site.name }}</h1>-->
-    <h1 class="sitetitle">{{ site.description }}</h1>
+    <h1 class="sitetitle">{{ site.name }}</h1>
 <!--    <p class="lead">
         {{ site.description }}
     </p>-->
@@ -175,8 +183,16 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © {{ site.time | date: "%Y" }} All right reserved
             </div>
+
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                Adress- Aricescu no.2 Street, Romania, 011685
+                Contant person- Miss Elena Nastrut
+                Email - virginiatrade@gmail.com, elena_viziroiu@gmail.com
+                Phone/ watsapp/wechat - 0040766071900
+            </div>
+
 <!--            <div class="col-md-6 col-sm-6 text-center text-lg-right">
                 <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             </div>-->

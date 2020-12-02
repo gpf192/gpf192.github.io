@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: small presentation of the company
 permalink: /about
 comments: true
 ---
@@ -8,28 +8,14 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>Dear Potential buyer, we are a slautherhouse in Romania, with almost 500 employees , with our owen chicken farms productions, who has the capacity to produce more then 7000 MT of chicken paws/year, between Grade A, Grade B and unprocessed chicken paws, and we are open to collaborate with a serious chinese company in the field of frozen meat, for a long time contract, to supply chinese market with our products, that we made fresh, clean and safety for large consume.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+<p>Our mainly technological flow regarding the production of chicken paws, ready to be consumed, is freshly cutted from our chicken farms, in our owen slautherhouse, boiled, clean from yellow skin and black spots, washed and packed, these steps  can check in our Gallery Videos/Photos section on website.</p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<p>Because of the pandemic situation, and not having possibility to travel for bussines in China, to meet potential bussines clients in the field and present our products, we thought to implement a DLC payment term to aproche the necessity of our chinese partners, and offer them a safe feeling, for runing together this collaboration.</p>
 
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<p>We advice you to know each other,to aproche each other and contact us for any detail, question, doubt, proposal, and we are open to offer the best solution of it, for a strong partnership togheter, growing both bussines.</p>
 
 </div>
 
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
-</div>
 </div>
