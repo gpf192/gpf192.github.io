@@ -1,13 +1,42 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "Chicken Paws, Grade A"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/bbb.jpg
 ---
-There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
+Place of Origin: EU- Romania 
+Availability: 10×40’ containers/month, 12 months
+5 containers immediate delivery and 10 per month for 12 months
 
-As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
+Specifications:
+
+•	32-35 Grams or Higher
+•	Length 7-9 Centimeters
+•	Feathers Off
+•	Washed and Cleaned
+•	White Skin Only ( Yellow Skin Off)
+•	Moisture Content Less Than 2%
+•	No Bad Smell
+•	No Black Spot
+•	No Bruising
+•	No Excessive Blood or Blood Stains
+•	Broken Bones Less Than 2%
+•	No Burns
+•	No Hair
+•	No Chemical Burns
+•	Drainage 1°C – 5°C for 8 Hours
+•	Shelf Life 24 Months
+
+Freezing Process: BQF Block Quick Frozen at Minus (-40°C) Forty Degrees Celsius
+Stored Temp: Stored at Minus (-18°C) Eighteen Degrees Celsius at All Times
+Transport Temp: Transported at Minus (-18°C) Eighteen Degrees Celsius at All Times
+Packaging: Outer: Standard Carton 20kg / Inner: (2) Two 10kg Layers
+Carton Label: Standard International Labels 
+
+Transit Time: Approximately 30-40 Days
+Payment Terms: DLC - Documentary Letter of Credit
+Incoterms: CIF/CFR
 
 
 ## Special formatting
