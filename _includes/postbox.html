@@ -16,7 +16,7 @@
                 {% endif %}
             <!--</a>-->
         </div>
-        <div class="card-body">
+        <div class="article-post">
             <h2 class="card-title">
                 <!--<a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
                 <a class="text-dark">{{ post.title }}</a>
@@ -28,7 +28,7 @@
             </h2>
             <!--<h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>-->
             <div class="row justify-content-between">
-                <h4 class="card-text">{{ post.excerpt | strip_html }}</h4>
+                <h4 class="card-text">{{ post.excerpt }}</h4>
             </div>
 
         </div>
