@@ -6,20 +6,11 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/bbb.jpg
 ---
 
-<div class="row justify-content-between">
-
-<p>Place of Origin: EU- Romania</p>
-
-<p>Availability: 10×40’ containers/month, 12 months</p>
-
-<p>Because of the pandemic situation, and not having possibility to travel for bussines in China, to meet potential bussines clients in the field and present our products, we thought to implement a DLC payment term to aproche the necessity of our chinese partners, and offer them a safe feeling, for runing together this collaboration.</p>
-
-<p>We advice you to know each other,to aproche each other and contact us for any detail, question, doubt, proposal, and we are open to offer the best solution of it, for a strong partnership togheter, growing both bussines.</p>
-
-</div>
-
-
-
+<li class="ml-1 mr-1">
+    <a target="_blank" href="#">
+    <i class="fab fa-twitter"></i>
+    </a>
+</li>
 
 ## Special formatting
 
