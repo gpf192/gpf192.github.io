@@ -8,7 +8,7 @@ image: assets/images/ccc.png
 <p> Place of Origin: EU - Romania </p>
 <p> Availability: 15×40’ containers/month, 12 months </p>
 <p> 8 containers immediate delivery and 10 per month for 12 months </p>
-<p> </p>Specifications: </p>
+<p> Specifications: </p>
 <p> •	28-32 Grams or Higher </p>
 <p> •	Length 7-9 Centimeters </p>
 <p> •	Without Yellow Skin </p>
