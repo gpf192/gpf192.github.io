@@ -5,7 +5,7 @@
     <div class="card h-100">
         <div class="maxthumb">
             {% if post.video %}
-            <video height="640" class="featured-box-img-cover" controls>
+            <video height="640" object-fit="cover" controls>
                 <source src="{{ post.video }}" type="video/mp4">
             </video>
             {% else %}
