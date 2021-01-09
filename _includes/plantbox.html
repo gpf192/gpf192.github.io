@@ -1,11 +1,11 @@
 <!-- begin post -->
 {% assign author = site.authors[post.author] %}
 
-<div class="col-lg-3 col-md-6 mb-15px card-group">
+<div class="col-lg-4 col-md-4 mb-15px card-group">
     <div class="card h-15">
         <div class="maxthumb">
             {% if post.video %}
-            <video class="featured-box-img-cover" controls>
+            <video class="featured-box-video-cover" controls>
                 <source src="{{ post.video }}" type="video/mp4">
             </video>
             {% else %}
