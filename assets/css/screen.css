@@ -118,7 +118,12 @@ section.recent-posts {
 
 .maxthumb {
     max-height: 300px;
-    overflow: visible;
+    overflow: hidden;
+}
+
+.maxthumb2 {
+    max-height: 500px;
+    overflow: auto;
 }
 
 .listfeaturedtag .card,
