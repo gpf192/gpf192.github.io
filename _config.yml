@@ -2,8 +2,8 @@
 name: "FRESH, TASTY AND SERIOUS ROMANIAN CHICKEN PAWS"
 title: "FRESH, TASTY AND SERIOUS ROMANIAN CHICKEN PAWS"
 description: "Jekyll template, Medium styled, free for bloggers."
-#logo: 'assets/images/logo.png'
-#favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
