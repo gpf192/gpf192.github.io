@@ -1,6 +1,6 @@
 ---
 layout: page
-title: small presentation of the company
+title: Small Presentation Of The Company
 permalink: /about
 comments: false
 ---
