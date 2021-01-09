@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% if page.url == "/" %}
+<!--{% if page.url == "/" %}-->
 
 <!-- Featured
 ================================================== -->
@@ -26,7 +26,7 @@ title: Home
     </div>
 </section>-->
 
-{% endif %}
+<!--{% endif %}-->
 
 <!-- Posts Index
 ================================================== -->
@@ -41,11 +41,13 @@ title: Home
     <div class="row listrecent">
 
         {% for post in site.posts %}
+
             {% if post.featured == true %}
 
-            {% else %}
                 {% include postbox.html %}
+
             {% endif %}
+
         {% endfor %}
 
     </div>
