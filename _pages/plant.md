@@ -1,5 +1,5 @@
 ---
 layout: plant
-title: Plant Production
+title: Gallery Photo/Videos
 permalink: /plant
 ---
