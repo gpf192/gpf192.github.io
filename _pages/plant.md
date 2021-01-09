@@ -1,5 +1,5 @@
 ---
 layout: plant
-title: plant
+title: Plant Production
 permalink: /plant
 ---
