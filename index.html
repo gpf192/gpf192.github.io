@@ -42,11 +42,11 @@ title: Home
 
         {% for post in site.posts %}
 
-            {% if post.featured == true %}
+        {% if post.contentType == "product" %}
 
-            {% else %}
-                {% include postbox.html %}
-            {% endif %}
+        {% include postbox.html %}
+
+        {% endif %}
 
         {% endfor %}
 
