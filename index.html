@@ -54,6 +54,66 @@ title: Home
 
 </section>
 
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>Photo Display</span></h2>
+
+    </div>
+
+    <div id="photo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+<!--        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>-->
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            {% for post in site.posts %}
+                {% if post.contentType == "photo" %}
+                    {% if post.active %}
+                        <div class="carousel-item active">
+                            <img src="{{ post.image }}">
+                        </div>
+                    {% else %}
+                        <div class="carousel-item">
+                            <img src="{{ post.image }}">
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    <!--    <div class="row listrecent">
+
+            {% for post in site.posts %}
+
+            {% if post.contentType == "product" %}
+
+            {% include postbox.html %}
+
+            {% endif %}
+
+            {% endfor %}
+
+        </div>-->
+
+</section>
+
 <!-- Pagination
 ================================================== -->
 <!--<div class="bottompagination">

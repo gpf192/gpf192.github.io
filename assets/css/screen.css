@@ -922,3 +922,8 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
