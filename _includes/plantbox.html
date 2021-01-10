@@ -16,7 +16,7 @@
             {% endif %}-->
             <!--</a>-->
             {% if post.video %}
-            <video class="featured-box-video-cover" controls>
+            <video class="featured-box-video-cover" controls="controls" preload="auto">
                 <source src="{{ post.video }}" type="video/mp4">
             </video>
             {% else %}
