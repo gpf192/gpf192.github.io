@@ -1,0 +1,11 @@
+<!-- begin post -->
+                {% if post.active %}
+                <div class="maxthumb3 carousel-item active">
+                    <img src="{{ site.baseurl }}/{{ post.image }}">
+                </div>
+                {% else %}
+                <div class="maxthumb3 carousel-item">
+                    <img src="{{ site.baseurl }}/{{ post.image }}">
+                </div>
+                {% endif %}
+<!-- end post -->

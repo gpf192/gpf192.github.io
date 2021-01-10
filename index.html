@@ -3,38 +3,56 @@ layout: default
 title: Home
 ---
 
-<!--{% if page.url == "/" %}-->
-
-<!-- Featured
-================================================== -->
-<!--<section class="featured-posts">
+<section class="recent-posts">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
-    </div>
-    <div class="row">
 
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
+        <h2><span>Product Display</span></h2>
 
     </div>
-</section>-->
 
-<!--{% endif %}-->
+    <div id="photo" class="col-lg-6 col-md-6 mb-30px carousel slide" data-ride="carousel">
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            {% for post in site.posts %}
+                {% if post.contentType == "photo" %}
+                    {% if post.active %}
+                    <li data-target="#photo" data-slide-to="{{ post.num }}" class="active"></li>
+                    {% else %}
+                    <li data-target="#photo" data-slide-to="{{ post.num }}"></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ul>
 
-<!-- Posts Index
-================================================== -->
+        <!--轮播图片-->
+
+        <div class="carousel-inner">
+            {% for post in site.posts %}
+
+            {% if post.contentType == "photo" %}
+
+            {% include photoboxscroll.html %}
+
+            {% endif %}
+
+            {% endfor %}
+        </div>
+
+        <!--左右切换按钮-->
+        <a class="carousel-control-prev" href="#photo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#photo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</section>
+
 <section class="recent-posts">
 
     <div class="section-title">
 
-        <h2><span>Product Category1</span></h2>
+        <h2><span>Product Category</span></h2>
 
     </div>
 
@@ -53,51 +71,5 @@ title: Home
     </div>
 
 </section>
-
-<!--<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>Photo Display1</span></h2>
-
-    </div>
-
-    <div id="photo" class="carousel slide" data-ride="carousel">
-
-        &lt;!&ndash; 轮播图片 &ndash;&gt;
-        <div class="carousel-inner">
-            {% for post in site.posts %}
-                {% if post.contentType == "photo" %}
-                    {% if post.active %}
-                        <div class="carousel-item active">
-                            <img src="{{ post.image }}">
-                        </div>
-                    {% else %}
-                        <div class="carousel-item">
-                            <img src="{{ post.image }}">
-                        </div>
-                    {% endif %}
-                {% endif %}
-            {% endif %}
-        </div>
-
-        &lt;!&ndash; 左右切换按钮 &ndash;&gt;
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-
-    </div>
-</section>-->
-
-<!-- Pagination
+<!-- Posts Index
 ================================================== -->
-<!--<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>-->
-
