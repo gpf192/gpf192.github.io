@@ -1,7 +1,7 @@
 # Site
 name: "FRESH, TASTY AND SERIOUS ROMANIAN CHICKEN PAWS"
 title: "FRESH, TASTY AND SERIOUS ROMANIAN CHICKEN PAWS"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "FRESH, TASTY AND SERIOUS ROMANIAN CHICKEN PAWS"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
@@ -20,17 +20,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
+    description: ""
 # Plugins
 plugins:
   - jekyll-paginate
