@@ -4,51 +4,6 @@ title: Home
 ---
 
 <section class="recent-posts">
-    <div class="section-title">
-
-        <h2><span>Product Display</span></h2>
-
-    </div>
-
-    <div id="photo" class="col-lg-6 col-md-6 mb-30px carousel slide" data-ride="carousel">
-        <!-- 指示符 -->
-        <ul class="carousel-indicators">
-            {% for post in site.posts %}
-                {% if post.contentType == "photo" %}
-                    {% if post.active %}
-                    <li data-target="#photo" data-slide-to="{{ post.num }}" class="active"></li>
-                    {% else %}
-                    <li data-target="#photo" data-slide-to="{{ post.num }}"></li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <!--轮播图片-->
-
-        <div class="carousel-inner">
-            {% for post in site.posts %}
-
-            {% if post.contentType == "photo" %}
-
-            {% include photoboxscroll.html %}
-
-            {% endif %}
-
-            {% endfor %}
-        </div>
-
-        <!--左右切换按钮-->
-        <a class="carousel-control-prev" href="#photo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#photo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-</section>
-
-<section class="recent-posts">
 
     <div class="section-title">
 
